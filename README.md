@@ -45,11 +45,11 @@ This application is divided into two main parts: a feature-rich User-facing site
 
 | Home Page | 
 | :---: |
-| ![Home Page](https://github.com/user-attachments/assets/adde721e-3ea5-4115-afaf-b7ebdad1f05a) |
+| ![Home Page](https://github.com/user-attachments/assets/adde721e-3ea5-4115-afaf-b7ebdad1f05a)
 
 | Admin Dashboard |
-| :---: | :---: |
-| ![Admin Dashboard](https://github.com/user-attachments/assets/90285e9f-0306-46e5-84c2-b39e375090a3) | 
+| :---: |
+| ![Admin Dashboard](https://github.com/user-attachments/assets/90285e9f-0306-46e5-84c2-b39e375090a3)
 
 ---
 
