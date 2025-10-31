@@ -1,4 +1,4 @@
-<img width="1920" height="2045" alt="screencapture-localhost-5173-2025-10-31-14_44_22" src="https://github.com/user-attachments/assets/2e26aae5-9a57-4530-af64-ac2887163bb7" /><img width="1920" height="1938" alt="screencapture-localhost-5173-admin-reports-2025-10-31-14_51_02" src="https://github.com/user-attachments/assets/5268e6f1-1b1d-45b9-8e5c-8aa9eb1ba4c9" /># 🍔 SavoryHub - Frontend (React)
+# 🍔 SavoryHub - Frontend (React)
 
 Welcome to the frontend repository for **SavoryHub**, a full-stack food delivery web application. This application provides a complete, modern user experience, from browsing and ordering food to a full-featured admin panel for site management.
 
@@ -43,10 +43,10 @@ This application is divided into two main parts: a feature-rich User-facing site
 
 ## 📸 Screenshots
 
-| Login Page | Home Page |
+| Home Page | Producr Page |
 | :---: | :---: |
-| ![Home Page](screenshot<img width="1920" height="2045" alt="screencapture-localhost-5173-2025-10-31-14_44_22" src="https://github.com/user-attachments/assets/adde721e-3ea5-4115-afaf-b7ebdad1f05a" />
-s/login.png) | ![Products Page](screenshots<img width="1920" height="1733" alt="screencapture-localhost-5173-categories-More-2025-10-31-14_44_46" src="https://github.com/user-attachments/assets/a69da8e4-c8a4-4ce1-9b30-13fd8adbf44a" />
+| (screenshot<img width="1920" height="2045" alt="screencapture-localhost-5173-2025-10-31-14_44_22" src="https://github.com/user-attachments/assets/adde721e-3ea5-4115-afaf-b7ebdad1f05a" />
+s/login.png) | (screenshots<img width="1920" height="1733" alt="screencapture-localhost-5173-categories-More-2025-10-31-14_44_46" src="https://github.com/user-attachments/assets/a69da8e4-c8a4-4ce1-9b30-13fd8adbf44a" />
 /home.png) |
 
 | Admin Dashboard | Product Management |
