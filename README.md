@@ -49,7 +49,7 @@ This application is divided into two main parts: a feature-rich User-facing site
 
 | Admin Dashboard | Product Management |
 | :---: | :---: |
-| ![Admin Dashboard](https://github.com/user-attachments/assets/90285e9f-0306-46e5-84c2-b39e375090a3) | **[IMAGE UPLOAD FAILED]** <br/> *(Please re-upload this image)* |
+| ![Admin Dashboard](https://github.com/user-attachments/assets/90285e9f-0306-46e5-84c2-b39e375090a3) | <img width="1920" height="7163" alt="screencapture-localhost-5173-admin-products-2025-10-31-14_50_21" src="https://github.com/user-attachments/assets/b44140c4-ade3-43cf-b7a1-ebf453c26cfb" />
 
 ---
 
