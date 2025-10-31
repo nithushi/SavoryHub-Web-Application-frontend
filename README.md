@@ -1,16 +1,94 @@
-# React + Vite
+# 🍔 SavoryHub - Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the frontend repository for **SavoryHub**, a full-stack food delivery web application. This application provides a complete, modern user experience, from browsing and ordering food to a full-featured admin panel for site management.
 
-Currently, two official plugins are available:
+This frontend is built with **React (Vite)** and communicates with a separate **[Spring Boot Backend API](https://github.com/nithushi/SavoryHub-Web-Application-backend)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This application is divided into two main parts: a feature-rich User-facing site and a powerful Admin Panel.
 
-## Expanding the ESLint configuration
+### 👤 User Features
+* **Authentication:** Secure user registration and login (JWT-based).
+* **Product Browsing:** View all products, filter by category, and view single product details.
+* **Search:** Real-time search functionality for all products.
+* **Shopping Cart:** A persistent, database-backed shopping cart. (Add, update quantity, remove items).
+* **Checkout:** Multi-step checkout process with shipping address validation and order placement.
+* **Profile Management:**
+    * View all past order history.
+    * Update personal details (name, contact).
+    * Update shipping address (auto-fills at next checkout).
+    * Change password (requires current password).
+    * Upload a custom profile picture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Admin Features
+* **Role-Based Access:** A secure `/admin` route accessible only to users with the `ADMIN` role.
+* **Analytics Dashboard:** A central dashboard showing key statistics (Total Revenue, Total Orders, Total Users, Pending Orders).
+* **Product Management (CRUD):**
+    * View all products in a table.
+    * Create new products via a dedicated form.
+    * Edit existing product details.
+    * Delete products from the database.
+* **Order Management:**
+    * View all orders from all users.
+    * Update the status of any order (e.g., "Pending", "Processing", "Delivered").
+* **User Management:**
+    * View a list of all registered users.
+    * Change any user's role (e.g., "USER" to "ADMIN").
+    * Activate or Deactivate user accounts.
+
+---
+
+## 📸 Screenshots
+
+| Login Page | Home Page |
+| :---: | :---: |
+| ![Login Page](screenshots/login.png) | ![Home Page](screenshots/home.png) |
+
+| Admin Dashboard | Product Management |
+| :---: | :---: |
+| ![Admin Dashboard](screenshots/admin-dashboard.png) | ![Product Management](screenshots/admin-products.png) |
+
+---
+
+## 🛠️ Tech Stack
+
+* **Core:** React (Vite)
+* **Routing:** React Router
+* **API Client:** Axios (using interceptors for auth tokens)
+* **Global State:** React Context API (for Auth & Cart)
+* **Notifications:** React-Toastify
+* **Charts (Admin):** Recharts
+* **Icons:** Lucide-React
+* **Styling:** Custom CSS (via inline `<style>` tags)
+
+---
+
+## 🏁 Getting Started
+
+### Prerequisites
+* Node.js (v18 or newer)
+* npm
+* The **[SavoryHub Backend](https://github.com/nithushi/SavoryHub-Web-Application-backend)** server must be running on `http://localhost:8080`.
+
+### How to Run
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/nithushi/SavoryHub-Web-Application-frontend.git](https://github.com/nithushi/SavoryHub-Web-Application-frontend.git)
+    cd SavoryHub-Web-Application-frontend
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  Open **`http://localhost:5173`** in your browser to see the application.
