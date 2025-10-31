@@ -43,17 +43,13 @@ This application is divided into two main parts: a feature-rich User-facing site
 
 ## 📸 Screenshots
 
-| Home Page | Producr Page |
+| Home Page | Product Page |
 | :---: | :---: |
-| (screenshot<img width="1920" height="2045" alt="screencapture-localhost-5173-2025-10-31-14_44_22" src="https://github.com/user-attachments/assets/adde721e-3ea5-4115-afaf-b7ebdad1f05a" />
-s/login.png) | (screenshots<img width="1920" height="1733" alt="screencapture-localhost-5173-categories-More-2025-10-31-14_44_46" src="https://github.com/user-attachments/assets/a69da8e4-c8a4-4ce1-9b30-13fd8adbf44a" />
-/home.png) |
+| ![Home Page](https://github.com/user-attachments/assets/adde721e-3ea5-4115-afaf-b7ebdad1f05a) | ![Product Page](https://github.com/user-attachments/assets/a69da8e4-c8a4-4ce1-9b30-13fd8adbf44a) |
 
 | Admin Dashboard | Product Management |
 | :---: | :---: |
-| ![Admin Dashboard](screenshots/ad<img width="1920" height="1938" alt="screencapture-localhost-5173-admin-2025-10-31-14_50_09" src="https://github.com/user-attachments/assets/90285e9f-0306-46e5-84c2-b39e375090a3" />
-min-dashboard.png) | ![Product Management](screenshots/a![Uploading screencapture-localhost-5173-admin-products-2025-10-31-14_50_21.png…]()
-dmin-products.png) |
+| ![Admin Dashboard](https://github.com/user-attachments/assets/90285e9f-0306-46e5-84c2-b39e375090a3) | **[IMAGE UPLOAD FAILED]** <br/> *(Please re-upload this image)* |
 
 ---
 
