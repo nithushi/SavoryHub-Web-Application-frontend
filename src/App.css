@@ -1,0 +1,80 @@
+/* Theme */
+:root {
+  --pink: #f04e76;
+  --navy: #2f3a4b;
+  --bg: #ffffff;
+  --text: #213547;
+  --muted: #8a8f98;
+  --card: #f7f7f9;
+  --radius: 14px;
+}
+
+.app-shell { max-width: none; width: 100%; margin: 0; padding: 16px 24px; }
+
+.app-header { display: flex; gap: 20px; align-items: center; justify-content: space-between; padding: 16px 0; }
+.brand { color: var(--navy); font-weight: 800; font-size: 22px; display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.brand-logo { width: 28px; height: 28px; object-fit: contain; border-radius: 6px; background: #fff; padding: 2px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.nav { display: flex; gap: 16px; align-items: center; }
+.nav a { color: var(--navy); opacity: 0.8; }
+.nav a.active { color: var(--pink); font-weight: 600; }
+.login-btn { padding: 8px 14px; border-radius: 999px; background: var(--pink); color: #fff !important; }
+
+.app-main { padding-bottom: 40px; }
+.app-footer { color: var(--muted); font-size: 12px; border-top: 1px solid #eee; padding: 12px 0; }
+
+/* Auth pages use edge-to-edge surface without site header/footer */
+.auth-shell { padding: 0; }
+.auth-shell .app-main { padding: 0; }
+
+.page h1 { margin: 0 0 12px; color: var(--navy); }
+.page h2 { margin: 28px 0 12px; color: var(--navy); }
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+.primary { background: var(--pink); color: #fff; padding: 10px 16px; border-radius: 999px; border: none; text-decoration: none; display: inline-block; }
+.wide { width: 100%; }
+.pink { color: var(--pink); }
+
+/* Home */
+.hero { background: linear-gradient(180deg, #ffe8ef, #fff); border-radius: var(--radius); padding: 28px; text-align: left; }
+.section-head { display: flex; justify-content: space-between; align-items: center; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.card { background: var(--card); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: inherit; }
+.card .img { background: #ddd; height: 140px; }
+.card.row { display: grid; grid-template-columns: 140px 1fr; }
+.info { padding: 12px; }
+.meta { display: flex; gap: 12px; color: var(--muted); font-size: 14px; }
+.price { font-weight: 700; margin-top: 6px; }
+
+.grid { display: grid; grid-template-columns: repeat(8, minmax(100px, 1fr)); gap: 12px; }
+.chip { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 14px; text-align: center; color: var(--navy); text-decoration: none; }
+
+/* Auth */
+.auth { max-width: 420px; margin: 0 auto; text-align: center; }
+.logo-mark { width: 64px; height: 64px; margin: 24px auto; border-radius: 18px; background: radial-gradient(circle at 30% 30%, #ff8aa8, var(--pink)); }
+.auth-form { display: grid; gap: 12px; margin: 16px 0 8px; }
+.auth-form input { padding: 12px 14px; border-radius: 12px; border: 1px solid #e6e6e6; }
+
+/* Product */
+.product { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.product-media { background: #ddd; border-radius: var(--radius); height: 360px; }
+.product-body .desc { color: var(--muted); }
+.qty { display: inline-flex; align-items: center; gap: 12px; margin: 10px 0; }
+.qty button { width: 32px; height: 32px; border-radius: 999px; border: 1px solid #eee; background: #fff; }
+.actions { display: flex; align-items: center; justify-content: space-between; }
+
+/* Cart */
+.cart-list { display: grid; gap: 12px; }
+.cart-item { display: grid; grid-template-columns: 84px 1fr auto; gap: 12px; align-items: center; background: var(--card); border-radius: var(--radius); padding: 8px; }
+.cart-item .thumb { width: 84px; height: 64px; background: #ddd; border-radius: 10px; }
+.summary { margin-top: 16px; border-top: 1px solid #eee; padding-top: 12px; display: grid; gap: 8px; }
+.summary .row { display: flex; justify-content: space-between; color: var(--navy); }
+.summary .row.total { font-weight: 800; }
+
+/* Categories */
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+
+@media (max-width: 860px) {
+  .cards { grid-template-columns: 1fr 1fr; }
+  .grid { grid-template-columns: repeat(4, 1fr); }
+  .product { grid-template-columns: 1fr; }
+}
